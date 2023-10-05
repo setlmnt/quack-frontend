@@ -44,9 +44,9 @@
     </section>
     <section class="w-full h-96 bg-azul pt-16">
         <h1 class="w-1/2 mx-auto font-modak text-8xl mb-8 text-branco text-center">Facilite sua carreira virtual hoje!</h1>
-        <form action="" class="w-1/2 mx-auto">
-            <input class="h-16 w-96 rounded-2xl" type="text">
-            <button class=" rounded-2xl bg-verde font-modak text-5xl p-2 text-branco" type="submit">Quack!</button>
+        <form action="" class="w-1/3 mx-auto flex justfy-center">
+            <input class="h-16 w-full rounded-2xl mr-4" type="text">
+            <button class=" rounded-2xl bg-verde font-modak text-5xl p-2 px-8 text-branco " type="submit">Quack!</button>
         </form>
     </section>
 </template>
