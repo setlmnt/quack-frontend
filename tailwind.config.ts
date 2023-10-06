@@ -18,7 +18,8 @@ module.exports = {
         'branco': '#D9D9D9',
         'laranja': '#F23B01',
         'azul': '#025DB7',
-        'roxo': '#AE4EB9'
+        'roxo': '#AE4EB9',
+        'cinza': '#B5BFC5',
 
       }
     },

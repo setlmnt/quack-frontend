@@ -1,23 +1,8 @@
-<footer>
-        <div>
-            <h1>Quack</h1>
-            <p>Quack é uma plataforma que permite que você crie uma página com todos os seus links e informações
-                importantes para que seus seguidores possam acessar facilmente.</p>
+<template>
+    <footer class="bg-branco h-40 py-16">
+        <div class="w-11/12 h-20 mx-auto flex justify-between items-center my-auto px-8 rounded-full bg-roxo">
+            <a class="font-montserrat text-2xl text-branco" href="/">Inicio</a>
+            <h1 class="font-modak text-4xl text-branco">Quack</h1>
         </div>
-        <div>
-            <h1>Links</h1>
-            <ul>
-                <li>Home</li>
-                <li>Planos</li>
-                <li>Contato</li>
-            </ul>
-        </div>
-        <div>
-            <h1>Contato</h1>
-            <ul>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Facebook</li>
-            </ul>
-        </div>
-</footer>
+    </footer>
+</template>

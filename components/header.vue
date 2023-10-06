@@ -4,8 +4,8 @@
             <h1 class="font-modak text-6xl text-verde">Quack</h1>
         </div>
         <div>
-            <button class="p-2 px-8 mx-4 rounded-xl font-montserrat bg-laranja text-branco text-xl font-semibold">Registre-se</button>
-            <button class="p-2 rounded-xl font-montserrat text-verde text-xl font-semibold">Entrar</button>
+            <nuxt-link class="p-2 px-8 mx-4 rounded-xl font-montserrat bg-laranja text-branco text-xl font-semibold" to="/registro">Registre-se</nuxt-link>
+            <nuxt-link class="p-2 rounded-xl font-montserrat text-verde text-xl font-semibold" to="/login">Entrar</nuxt-link>
         </div>
 
     </header>

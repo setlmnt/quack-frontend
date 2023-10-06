@@ -1,5 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default {
+  routes: [
+    {
+      name: 'login',
+      path: '/login',
+      component: '~/pages/login.vue'
+    },
+    {
+      name: 'registro',
+      path: '/registro',
+      component: '~/pages/registro.vue'
+    }
+  ],
   modules: ['@nuxtjs/google-fonts'],
     googleFonts: {
       display: 'swap',
@@ -16,4 +28,4 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-})
+}
