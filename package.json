@@ -20,6 +20,12 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "nuxt3": "^3.8.0-28272182.861d49e7"
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/toast": "^3.3.1",
+    "@pinia/nuxt": "^0.5.1",
+    "axios": "^1.5.1",
+    "json-server": "^0.17.4",
+    "nuxt3": "^3.8.0-28272182.861d49e7",
+    "pinia": "^2.1.7"
   }
 }
