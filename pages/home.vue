@@ -13,10 +13,10 @@
 
       <!-- Iterate over collections and display them -->
       <div v-for="(collection, index) in collections" :key="index" class="col-span-1 h-96">
-        <div @click="redirect(collection.slug)" class="h-full rounded-3xl p-8 px-12 overflow-hidden cursor-pointer hover:border-8 border-inherit border-dashed border-amber-500" :class="getCollectionClass()">
+        <div @click="redirect(collection.slug)" class="h-full rounded-3xl py-8 px-12 overflow-hidden cursor-pointer hover:border-8 border-inherit border-dashed border-amber-500" :class="getCollectionClass()">
           <!-- Display collection information here -->
-          <h2 class=" font-modak text-branco text-7xl">{{ collection.name }}</h2>
-          <p class="text-branco font-montserrat text-3xl">{{ collection.bio }}</p>
+          <h2 class=" font-modak text-branco text-5xl">{{ collection.name }}</h2>
+          <p class="text-branco font-montserrat text-3xl ">{{ collection.bio }}</p>
           <!-- You can add more details as needed -->
         </div>
       </div>

@@ -1,4 +1,7 @@
 export default {
+  build: {
+    target: 'static',
+  },
   buildModules: ['@nuxtjs/pinia'],
   pinia: {
     strict: true,
@@ -14,9 +17,9 @@ export default {
       component: '~/pages/login.vue'
     },
     {
-      name: 'cadastro',
-      path: '/cadastro',
-      component: '~/pages/cadastro.vue'
+      name: 'signup',
+      path: '/signup',
+      component: '~/pages/signup.vue'
     },
     {
       name: 'home',
