@@ -10,7 +10,7 @@
         </button>
         <div class="w-4/6 h-full mx-auto grid grid-cols-1 md:grid-cols-3 gap-2">
           <!-- Iterate over collections and display them -->
-          <div v-for="(collection, index) in collections" :key="index" class="col-span-1 h-96">
+          <div v-for="(collection, index) in collections" :key="collection.id" class="col-span-1 h-96">
             <div @click="redirect(collection.slug)" class="h-full rounded-3xl py-12 px-12 overflow-hidden cursor-pointer hover:border-8 border-inherit border-dashed border-amber-500" :class="getCollectionClass()">
               <!-- Display collection information here -->
               <h2 class="h-1/3 whitespace-pre-wrap truncate font-modak text-branco text-5xl mb-4">{{ collection.name }}</h2>
