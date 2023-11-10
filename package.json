@@ -23,7 +23,7 @@
     "@nuxtjs/auth": "^4.9.1",
     "@nuxtjs/toast": "^3.3.1",
     "@pinia/nuxt": "^0.5.1",
-    "axios": "^1.5.1",
+    "axios": "^1.6.0",
     "json-server": "^0.17.4",
     "netlify-cli": "^16.9.2",
     "nuxt3": "^3.8.0-28272182.861d49e7",
